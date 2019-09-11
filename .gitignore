@@ -1,0 +1,34 @@
+src/*.exe
+src/gaoshcoin
+src/gaoshcoind
+src/test_gaoshcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.gaoshcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+gaoshcoin-qt
+Gaoshcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+gaoshcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
